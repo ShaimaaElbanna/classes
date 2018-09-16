@@ -1,23 +1,21 @@
 .colum {
-    min-height: 100vw;
+
+    min-height: 30em;
     margin: 1em;
     background-color: antiquewhite;
 }
 
-    @media (min-width: 800px){
+    @media (min-width: 480px){
         body {
             background-color: aqua;
-            display: grid;
-            margin: 10px;
-        grid-template-rows: 30vh 20vh 20vh; 
-    grid-template-columns: 3fr 1fr 2fr; }
-            .colum {grid: 1fr;}
-            .prime {grid: 2fr;}
+            display: flex; }
+            .colum { flex: 1;}
+            .prime {flex: 2 ;}
         }
 
 
 
-            @media (min-width: 700px
+            @media (min-width: 700px){
                 body {
                     background-color: rgb(162, 0, 255);
                     display: flex; }
