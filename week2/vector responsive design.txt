@@ -1,1 +1,16 @@
 @media ()
+sizes
+px: point on the screen
+pt: point is 1/72 pf inch hardly use it (its usless)
+em: tipogrifick type 1em = the normal pix for font size which is usually 16px. when you change the font in the body you set it as pasic for all what inside the whole page. 
+%: clear.
+rem: root em, it depends on the root font size 
+font from orignal font size 16px
+image, % of the width os the screen or em from the font size.
+when u setthe height to 100% its 100 from the parent which her the contenet so it boxes the contenet
+vh: view port heigh/ 100vh is 100% of the height of the screen
+vw: view port width/100vh is 100% of the width of the screen
+vmax:
+vmin:
+
+
