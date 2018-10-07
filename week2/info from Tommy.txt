@@ -1,3 +1,0 @@
-".." mean go backforword 1 steps in VS.
-conflicts in gethub means that you have 2 diffrent kind of arrows in it
-solve the conflict: move the file out from the folder, delete the folder, re clone it, add the file back to the folder.

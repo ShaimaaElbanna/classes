@@ -1,2 +1,0 @@
-ctrl + shift + i) (f12) = inepect
-inlign blocks remove the dots from the list items and that how you make minues 

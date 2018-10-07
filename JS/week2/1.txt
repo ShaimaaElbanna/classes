@@ -1,0 +1,2 @@
+<script src="style.js" type="text" ><
+4/script>
