@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>input method</title>
+<script type="text/javascript">
+function MyKeyUp(){
+    const MyDiv = document.getElementById('MyDiv');
+    const MyInput    = document.getElementById('MyInput');
+
+    if( MyInput === null ){
+        console.log('cannot find')
+    
+    }
+    console.log('Key was donr');
+    MyDiv.innerHTML = MyInput.value;
+
+};
+</script>
+</head>
+
+<body>
+<input id="MyInput" type="" name="" onkeyup="MyKeyUp();" value="a good start">
+
+
+<div id="MyDiv"></div>
+
+</body>
+</html>

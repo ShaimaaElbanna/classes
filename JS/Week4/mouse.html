@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>input method</title>
+<script type="text/javascript">
+function MyKeyUp(event){
+    const MyDiv = document.getElementById('MyDiv');
+    //const MyInput = document.getElementById('MyImput');
+    console.log('Key was done');
+    MyDiv.innerHTML = event.currentTarget.value;
+};
+function myLink(){
+    console.log('a was presed');
+
+}
+let downX;
+let downY;
+
+function MyMouseDown(event) {
+    console.log('img was done')
+    downX = event.clientX;
+    downY = event.clientY;
+}
+
+function MyMouseMove(event){
+    const delta = event.clientX = downX;
+    const MyDiv = document.getElementById('MyDiv');
+    MyDiv.innerHTML = delta;
+}
+</script>
+</head>
+
+<body>
+    <a href="javascript:myLink();">HYF</a>
+<input id="MyInput" type="" name="" onkeyup="MyKeyUp(event);" value="a good start">
+
+<div id="MyDiv"></div>
+<img width="100px" src="https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg?cs=srgb&dl=artistic-blossom-bright-207962.jpg&fm=jpg"
+onmousedown="MyMouseDown(event);" onmousemove="MyMouseMove(event);">
+</body>
+</html>
